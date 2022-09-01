@@ -14,7 +14,7 @@
 
 ## Accepting the assignment
 
-Here is the **assignment link** for [CS3A](https://github.com/stephengineer-CS003A-classroom/CS3A_Assignments) and here is the link for [CS8]()
+Here is the **assignment link** for [CS3A](https://github.com/CS-PCC/CS3A_Assignments) and here is the link for [CS8]()
 
 </br>
 
@@ -70,7 +70,7 @@ __Note__: Bookmark this page to know how to get here. We'll need to check in her
 
 Before you can work on your project, you will need a local copy of the assignment. This is called **clone** the repository.
 
-**Note**: Do **NOT** clone project under `OneDrive` folder for Windows user.
+**Note**: For Windows, do **NOT** clone project under `OneDrive` folder for Windows user.
 
 
 ```sh
@@ -179,6 +179,7 @@ Look at the response: It says there is not change as of yet. That's correct. We 
 </br>
 
 ### Edit the README.md
+
 1. Enter your name in the README.md and save it.
 2. `$ git status` again.
 
@@ -362,7 +363,10 @@ You should be able to right click on `CMakeLists.txt` and click on `Clean Reconf
 
 </br>
 
-A prompt should appear on top, just click on similar compiler to: `GCC 6.3.0 mingw`
+A prompt should appear on top, just click on similar compiler to:
+
+- Windows: `GCC 6.3.0 mingw`
+- Mac: `Clang 13.0.0`
 
 <img src="images/mac_images/b-02-cmake_tools_4.png" alt="cmake_tools" width="1000"/>
 
@@ -622,7 +626,7 @@ Once you have successfully run `testB`, you can run git commands to commit chang
 
 $ git status
 $ git add .
-$ git commit - m "success on make with stubs"
+$ git commit - m "success on test with stubs"
 $ git push origin master
 ```
 
