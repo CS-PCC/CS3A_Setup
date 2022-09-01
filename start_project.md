@@ -24,7 +24,7 @@ Here is the **assignment link** for [CS3A](https://github.com/CS-PCC/CS3A_Assign
 1. Select yourself from the list with your name.
 1. Click on the green button, `Accept this assignment`  to accept the assignment.
 
-<img src="images/mac_images/a-00-accept_assignment.png" alt="accept_assignment" width="1000"/>
+<img src="images/project/a-00-accept_assignment.png" alt="accept_assignment" width="1000"/>
 
 </br>
 
@@ -41,13 +41,13 @@ Once you accepted the assignment, github will begin to create your assignment re
 1. Refresh this page to see updates.
 1. Click the link of repo.
 
-<img src="images/mac_images/a-04-reload_to_update.png" alt="reload_to_update" width="1000"/>
+<img src="images/project/a-01-reload_to_update.png" alt="reload_to_update" width="1000"/>
 
 </br>
 
 __Note__: Bookmark this page to know how to get here. We'll need to check in here soon.
 
-<img src="images/mac_images/a-06-your-repo.png" alt="your-repo" width="1000"/>
+<img src="images/project/a-02-your-repo.png" alt="your-repo" width="1000"/>
 
 ---
 
@@ -62,7 +62,7 @@ __Note__: Bookmark this page to know how to get here. We'll need to check in her
 1. Click on the green `Code` button on the mid-right.
 1. Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step. 
 
-<img src="images/mac_images/a-07-copy_clone_link.png" alt="copy_clone_link" width="1000"/>
+<img src="images/project/a-03-copy_clone_link.png" alt="copy_clone_link" width="1000"/>
 
 </br>
 
@@ -105,7 +105,7 @@ $ code .
 Without using command, you can just double click on the VSCode app to open it.
 ```
 
-<img src="images/mac_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="1000"/>
+<img src="images/project/b-01-vscode_after_cloning.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
 
@@ -121,7 +121,7 @@ On the left panel (Explorer) you will find the `main.cpp` on the root folder, an
 
 - `build`: is where you go to build and run your project. This is where all your compiled and executable files will end up.
 
-<img src="images/mac_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
+<img src="images/project/b-02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
 
 </br>
 
@@ -174,7 +174,7 @@ $ git status
 
 Look at the response: It says there is not change as of yet. That's correct. We have not made any changes.
 
-<img src="images/mac_images/c-00-git_status_1.png" alt="git_status" width="1000"/>
+<img src="images/project/c-00-git_status.png" alt="git_status" width="1000"/>
 
 </br>
 
@@ -191,7 +191,7 @@ After you run `$ git status` again, you will see that git has kept track of our 
 
 As usual, one picture is worth a thousand words:
 
-<img src="images/mac_images/c-00-git_workflow.png" alt="git_workflow" width="1000"/>
+<img src="images/project/c-01-git_workflow.png" alt="git_workflow" width="1000"/>
 
 </br>
 
@@ -265,7 +265,7 @@ Add two files in the project folder:
 - `array_functions.h`
 - `array_functions.cpp`
 
-<img src="images/mac_images/08-project_folder.png" alt="project_folder" width="200"/>
+<img src="images/project/b-03-project_folder.png" alt="project_folder" width="200"/>
 
 </br>
 
@@ -352,29 +352,30 @@ An easy method to build project. If you have not already install CMake and CMake
 1. Search `cmake`.
 1. Install `CMake` and `CMake Tools`
 
-<img src="images/mac_images/b-02-cmake_tools_1.png" alt="cmake_tools"/>
+<img src="images/project/b-04-cmake_extension.png" alt="cmake_extension"/>
 
 </br>
 
 #### Rebuild
 You should be able to right click on `CMakeLists.txt` and click on `Clean Reconfigure All Projects`:
 
-<img src="images/mac_images/b-02-cmake_tools_2.png" alt="cmake_tools" width="400"/>
+<img src="images/project/b-05-cmake_reconfigure.png" alt="cmake_reconfigure" width="400"/>
 
 </br>
 
 A prompt should appear on top, just click on similar compiler to:
 
-- Windows: `GCC 6.3.0 mingw`
 - Mac: `Clang 13.0.0`
+<img src="images/project/b-06-compiler_mac.png" alt="compiler_mac" width="1000"/>
 
-<img src="images/mac_images/b-02-cmake_tools_4.png" alt="cmake_tools" width="1000"/>
+- Windows: `GCC 6.3.0 mingw`
+<img src="images/project/b-07-compiler_win.png" alt="compiler_win" width="1000"/>
 
 </br>
 
 If it does not show up, you will need to manually select it on the bottom there is a button as shown:
 
-<img src="images/mac_images/b-02-cmake_tools_5.png" alt="cmake_tools"/>
+<img src="images/project/b-08-compiler.png" alt="compiler"/>
 
 </br>
 
@@ -384,13 +385,13 @@ If it does not show up, you will need to manually select it on the bottom there 
 
 The output should look something like this:
 
-<img src="images/mac_images/b-02-cmake_tools_6.png" alt="cmake_tools" width="1000"/>
+<img src="images/project/b-09-cmake_output.png" alt="cmake_output" width="1000"/>
 
 </br>
 
 Some buttons should be on the bottom:
 
-<img src="images/mac_images/b-02-cmake_tools_7.png" alt="cmake_tools" width="1000"/>
+<img src="images/project/b-10-cmake_tools.png" alt="cmake_tools" width="1000"/>
 
 </br>
 
@@ -402,7 +403,7 @@ __Note__: With every future project, just `Clean Reconfigure All Projects` and e
 
 Now, we are ready to compile project by clicking on **Run** (triangle) button.
 
-<img src="images/mac_images/21-make.png" alt="make" width="1000"/>
+<img src="images/project/b-11-make.png" alt="make" width="1000"/>
 
 </br>
 
@@ -418,7 +419,7 @@ $ git commit - m "success on make with stubs"
 
 __Note__: The importance of having __regular__ `commit`s in your project cannot be overstated. This is a large part of the evaluation of your project by me.
 
-<img src="images/mac_images/22-git_add_commit.png" alt="git_add_commit" width="1000"/>
+<img src="images/project/c-02-git_add_commit.png" alt="git_add_commit" width="1000"/>
 
 </br>
 
@@ -513,7 +514,7 @@ This will display two successful test runs: one for the `stub` test that was alr
 
 This means that our test function returned `true`.
 
-<img src="images/mac_images/27-make_run_testB.png" alt="make_run_testB" width="1000"/>
+<img src="images/project/b-12-make_run_testB.png" alt="make_run_testB" width="1000"/>
 
 ---
 
@@ -615,7 +616,7 @@ Obviously, you are done in the testB.cpp file, do not forget to add the `TEST()`
 
 Let's `make` and run `testB` to make sure all test functions pass.
 
-<img src="images/mac_images/30-PASSED_three_tests.png" alt="PASSED_three_tests" width="1000"/>
+<img src="images/project/b-13-PASSED_three_tests.png" alt="PASSED_three_tests" width="1000"/>
 
 </br>
 
@@ -638,6 +639,6 @@ Now that we have implemented all the functions that are used in `basic_test.cpp`
 
 I cannot overemphasize how important it is for this test to be able to compile and run __without__ your editing it in any way. If your project cannot compile and run `basic_test`, the grader will not be able to run your project.
 
-<img src="images/mac_images/31-PASSED-basic_test.png" alt="PASSED-basic_test" width="1000"/>
+<img src="images/project/b-14-PASSED-basic_test.png" alt="PASSED-basic_test" width="1000"/>
 
 </br>

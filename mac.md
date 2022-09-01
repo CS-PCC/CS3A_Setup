@@ -46,7 +46,7 @@ To make sure git is installed correctly
 $ git --version
 ```
 
-<img src="images/mac_images/b-00-git_version.png" alt="git version" width="1000"/>
+<img src="images/mac/a-00-git_version.png" alt="git version" width="1000"/>
 
 </br>
 
@@ -87,7 +87,7 @@ Let's check to see if `cmake` is installed successfully:
 $ cmake --version
 ```
 
-<img src="images/mac_images/b-00-cmake_version.png" alt="cmake version" width="1000"/>
+<img src="images/mac/a-01-cmake_version.png" alt="cmake version" width="1000"/>
 
 </br>
 
