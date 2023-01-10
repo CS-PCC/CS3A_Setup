@@ -14,7 +14,7 @@
 
 ## Accepting the assignment
 
-Here is the **assignment link** for [CS3A](https://github.com/CS-PCC/CS3A_Assignments) and here is the link for [CS8]()
+Here is the **assignment link** for [CS3A](https://github.com/CS-PCC/CS3A_Assignments) and here is the link for [CS8](https://github.com/CS-PCC/CS8_Assignments)
 
 </br>
 
