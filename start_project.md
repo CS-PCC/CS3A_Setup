@@ -414,7 +414,7 @@ Run git commands to commit changes:
 ```sh
 $ git status
 $ git add .
-$ git commit - m "success on make with stubs"
+$ git commit -m "success on make with stubs"
 ```
 
 __Note__: The importance of having __regular__ `commit`s in your project cannot be overstated. This is a large part of the evaluation of your project by me.
