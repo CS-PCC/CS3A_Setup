@@ -627,7 +627,7 @@ Once you have successfully run `testB`, you can run git commands to commit chang
 
 $ git status
 $ git add .
-$ git commit - m "success on test with stubs"
+$ git commit -m "success on test with stubs"
 $ git push origin master
 ```
 
