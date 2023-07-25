@@ -1,98 +1,122 @@
 # Mac Instructions</br>
 
-- ### [Installing `git`](#mac_installing_git)</br>
-- ### [Installing `cmake`](#mac_installing_cmake)</br>
+- ### [Installing `Xcode`](#mac_installing_Xcode)</br>
+- ### [Installing `CMake`](#mac_installing_cmake)</br>
+- ### [Configuring `Git`](#mac_configure_git)</br>
 
 ---
 
 </br>
 
-<a name="mac_installing_git"></a>
 
-## Installing git
 
-</br>
+<a name="mac_installing_Xcode"></a>
 
-### Install git
+## Installing Xcode
 
-We use [homebrew](https://brew.sh/) to [install git](https://git-scm.com/download/mac).
+You need to install **Xcode Command Line Tools** to use **clang** and **git**
 
-```sh
-$ brew install git
+### Install Xcode Command Line Tools
+
+To install Xcode Command Line Tools in your terminal, run:
+```shell
+xcode-select --install
+```
+Click install and wait until the installation completes
+
+### Check clang installation
+
+Let's make sure clang is installed correctly
+
+```shell
+clang --version
 ```
 
-If you see "brew: command not found", then you need to install brew.
+<img src="images/mac/a-00-clang_version.png" alt="git version" width="1000"/>
 
-```sh
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# The following two lines for Apple M1 Processor
-
-# you can find the following command in terminal
-$ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/YOUR_DEVICE_NAME/.zprofile
-
-$ eval $(/opt/homebrew/bin/brew shellenv)
-```
-
-You need to install **Xcode** from App Store before you use other IDE.
-
-</br>
+If you do not get a response similar to this, then you do not have `CMake` on your system.
 
 ### Check git installation
 
 To make sure git is installed correctly
 
-```sh 
-$ git --version
+```shell
+git --version
 ```
 
-<img src="images/mac/a-00-git_version.png" alt="git version" width="1000"/>
+<img src="images/mac/a-01-git_version.png" alt="git version" width="1000"/>
 
-</br>
 
-### Login git
-
-Login git with username and email address:
-
-```sh
-$ git config --global user.name "stephengineer"
-$ git config --global user.email "swang03@pasadena.edu"
-```
-
----
-
-</br>
 
 <a name="mac_installing_cmake"></a>
 
 ## Installing cmake
 
-</br>
-
 ### Install cmake
 
-We use homebrew to install [cmake](https://cmake.org/):
+We use homebrew to install [CMake](https://cmake.org/):
 
-```sh
-$ brew install cmake
+```shell
+brew install cmake
+```
+
+If you see `brew: command not found`, then you need to install brew.
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 </br>
 
-### Check cmake version
+### Check CMake version
 
-Let's check to see if `cmake` is installed successfully:
+To check to see if `CMake` is installed successfully:
 
-```sh
-$ cmake --version
+```shell
+cmake --version
 ```
 
-<img src="images/mac/a-01-cmake_version.png" alt="cmake version" width="1000"/>
+<img src="images/mac/a-02-cmake_version.png" alt="cmake version" width="1000"/>
 
 </br>
 
-If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
+
+<a name="mac_configure_git"></a>
+
+## Configuring git
+
+### Configure git
+
+Configure git with your username and email address:
+
+```shell
+git config --global user.name "stephengineer"
+git config --global user.email swang03@pasadena.edu
+```
+
+### Install GitHub CLI
+
+Installing the CLI
+
+```shell
+brew install gh
+```
+
+To login to GitHub
+
+```shell
+gh auth login
+```
+
+The CLI will step you through logging in with your github account
 
 ---
 
-Once everything is installed, you can move on to the [next step](start_project.md)
+### After you have installed:
+- **Xcode Command Line Tools**
+    - **clang**
+    - **git**
+- **Cmake**
+- **GitHub CLI**
+
+you can move on to the [next step](start_project.md)
