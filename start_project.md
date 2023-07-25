@@ -365,10 +365,10 @@ You should be able to right click on `CMakeLists.txt` and click on `Clean Reconf
 
 A prompt should appear on top, just click on similar compiler to:
 
-- Mac: `Clang 13.0.0`
+- Mac: `Clang X.X.X`
 <img src="images/project/b-06-compiler_mac.png" alt="compiler_mac" width="1000"/>
 
-- Windows: `GCC 6.3.0 mingw`
+- Windows: `GCC X.X.X mingw32`
 <img src="images/project/b-07-compiler_win.png" alt="compiler_win" width="1000"/>
 
 </br>
@@ -379,7 +379,7 @@ If it does not show up, you will need to manually select it on the bottom there 
 
 </br>
 
-- If it does not show `GCC 6.3.0 mingw32` click on that button and select it.
+- If it does not show `GCC X.X.X mingw32` click on that button and select it.
 - If there is no option, try scanning for kits and try again.
 - If it still doesn’t show up, you probably messed up your Mingw installation.
 
